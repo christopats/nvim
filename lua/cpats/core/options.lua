@@ -1,7 +1,5 @@
 vim.cmd("let g:netrw_lifestyle = 3")
 
-
-
 local opt = vim.opt -- for conciseness
 
 -- line numbers
@@ -25,7 +23,6 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 opt.cursorline = true -- highlight the current cursor line
 
 -- appearance
-
 -- turn on termguicolors for nightfly colorscheme to work
 -- (have to use iterm2 or any other true color terminal)
 opt.termguicolors = true
